@@ -20,15 +20,15 @@
         <header class="app_header p-2">
                     <nav class="container-fluid">
                         <div class="row align-items-center">
-                            <div class="col-auto">logo</div>
+                            <div class="col-auto"><img src="./img/logo.svg" alt="Logo"></div>
                             <div class="col-auto app_header_searchbar flex-grow-1">
                                 <input type="text" placeholder="Prova a cercare Lezioni di Laravel" class="w-100 px-5">
                                 <i class="fa-solid fa-magnifying-glass search-icon"></i>
                             </div>
                             <ul class=" col-auto header_list d-none d-lg-flex list-unstyled mb-0">
-                                <li>Logo</li>
-                                <li>Logo</li>
-                                <li>Logo</li>
+                                <li><i class="fa-solid fa-list"></i></li>
+                                <li><i class="fa-solid fa-circle-question"></i></li>
+                                <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
                             </ul>
                             <div class="col-auto">
                                 <i class="fa-solid fa-bell text-warning"></i>
@@ -45,21 +45,21 @@
                     
 
             <!-- Side BAR -->
-            <div class="side_bar d-flex flex-column text-white px-3 py-4">
+            <nav class="side_bar d-flex flex-column text-white px-2 py-4">
                 <div class="mb-auto">
                     <ul class="list-unstyled">
-                        <li>Logo <span class="logo_description">Home</span></li>
-                        <li>Logo <span class="logo_description">Stats</span></li>
-                        <li>Logo <span class="logo_description">Signals</span></li>
+                        <li class="py-2"><i class="fa-solid fa-house px-3"></i><span class="logo_description">Home</span></li>
+                        <li class="py-2"><i class="fa-solid fa-chart-simple px-3"></i><span class="logo_description">Stats</span></li>
+                        <li class="py-2"><i class="fa-solid fa-signal px-3"></i><span class="logo_description">Signals</span></li>
                     </ul>
                 </div>
-                <div>Logo <span class="logo_description">Admin</span></div>
-            </div>
+                <div class="py-2"><i class="fa-solid fa-gear px-3"></i><span class="logo_description">Admin</span></div>
+            </nav>
 
             <!-- App Bar -->
             <div class="app_bar flex-grow-1 d-flex flex-column">
 
-                <section class="new_student text-white fs-5">
+                <section class="new_student_section text-white fs-5">
                     <div class="container-fluid h-100">
                         <div class="row h-100 align-items-center">
                             <div class="col-sm-12 col-md-4 order-md-3">Nuovo Studente</div>
@@ -71,7 +71,7 @@
                 </section>
 
 
-                <section class="info flex-grow-1">
+                <section class="info_section flex-grow-1">
                     <div class="container-fluid h-100">
                         <div class="row h-100">
                             <div class="col-12 col-lg-8">

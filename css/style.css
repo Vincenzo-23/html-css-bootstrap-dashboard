@@ -46,7 +46,7 @@
 
 /* App Bar */
 
-.app_bar .new_student{
+.app_bar .new_student_section{
     height: 265px;
     background-color: #1B72E8;
 }
@@ -77,6 +77,14 @@
 /* Desktop Version */
 
 @media (min-width: 992px){
+
+
+    /* HEADER */
+
+    .header_list{
+        gap: 24px;
+    }
+
 
     /* MAIN Side Bar */
 
@@ -110,9 +118,8 @@
 /* DEBUG */
 
 .debug .side_bar{
-    background-color: blue;
+    background-color: rgb(3, 163, 163);
+    /* background-image: url(../img/sidebar-bg.png);
+    background-size: cover; */
 }
 
-.debug .app_bar{
-    background-color: rgb(255, 225, 127);
-}
