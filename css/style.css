@@ -39,7 +39,9 @@
     flex-shrink: 0;
 }
 
-
+.logo_description{
+    display: none;
+}
 
 
 /* App Bar */
@@ -50,10 +52,37 @@
 
 
 
+/* Tablet Version */
+
+@media (min-width: 768px){
+
+   
+
+
+}
 
 
 
 
+
+
+
+/* Tablet Version */
+
+@media (min-width: 992px){
+
+    /* MAIN Side Bar */
+
+    .side_bar{
+        width: 150px;
+    }
+
+    .logo_description{
+        display: inline-block;
+    }
+    
+
+}
 
 
 
