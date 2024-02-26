@@ -1,14 +1,75 @@
+/* LAYOUT */
+
+#app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
 /* HEADER */
 
-.header_searchbar{
+.app_header{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.app_header_searchbar{
     position: relative;
 
 }
-
 
 .search-icon{
     position: absolute;
     top: 15px;
     transform: translateY(-50%);
     left: 18px;
+    pointer-events: none;
+}
+
+
+/* MAIN */
+
+
+/* Side Bar */
+
+.side_bar{
+    width: 70px;
+    flex-shrink: 0;
+}
+
+
+
+
+/* App Bar */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+.debug .side_bar{
+    background-color: blue;
+}
+
+.debug .app_bar{
+    background-color: rgb(255, 225, 127);
 }
