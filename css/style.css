@@ -1,0 +1,14 @@
+/* HEADER */
+
+.header_searchbar{
+    position: relative;
+
+}
+
+
+.search-icon{
+    position: absolute;
+    top: 15px;
+    transform: translateY(-50%);
+    left: 18px;
+}
