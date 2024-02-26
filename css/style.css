@@ -46,7 +46,10 @@
 
 /* App Bar */
 
-
+.app_bar .new_student{
+    height: 265px;
+    background-color: #1B72E8;
+}
 
 
 
@@ -56,8 +59,12 @@
 
 @media (min-width: 768px){
 
+    /* MAIN App Bar */
    
-
+    .app_bar .new_student{
+        height: 135px;
+        
+    }
 
 }
 
@@ -67,7 +74,7 @@
 
 
 
-/* Tablet Version */
+/* Desktop Version */
 
 @media (min-width: 992px){
 
@@ -81,6 +88,13 @@
         display: inline-block;
     }
     
+
+    /* MAIN App Bar */
+   
+    .app_bar .new_student{
+        height: 125px;
+        
+    }
 
 }
 
