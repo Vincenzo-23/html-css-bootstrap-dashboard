@@ -72,6 +72,8 @@
 
 /* App Bar */
 
+/* New student section */
+
 .app_bar .new_student_section{
     height: 265px;
     background-color: #1B72E8;
@@ -90,6 +92,37 @@
    
 }
 
+/* Info section */
+
+.info_section .card-body td img{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+.table_custom_badge{
+    padding: 6px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 700;
+   
+}
+
+.badge_green{
+    background-color: green;
+}
+
+.badge_red{
+    background-color: red;
+}
+
+
+.badge_yellow{
+    background-color: orange;
+}
+
+
 
 /* Tablet Version */
 
@@ -103,11 +136,6 @@
     }
 
 }
-
-
-
-
-
 
 
 /* Desktop Version */
@@ -151,7 +179,6 @@
 
 
 
-/* DEBUG */
 
 
 
