@@ -63,6 +63,9 @@ button{
 
 /* MAIN */
 
+.app_body{
+    height: 0;
+}
 
 /* Side Bar */
 
