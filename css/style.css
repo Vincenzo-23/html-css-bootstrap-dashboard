@@ -77,8 +77,18 @@
     background-color: #1B72E8;
 }
 
+.plus_icon{
+    font-size: 12px;
+}
 
-
+.custom_badge{
+    background-color: #165BBA;
+    padding: 6px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 700;
+   
+}
 
 
 /* Tablet Version */

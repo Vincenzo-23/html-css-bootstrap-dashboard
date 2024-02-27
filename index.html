@@ -20,8 +20,8 @@
         <header class="app_header p-2">
                     <nav class="container-fluid container_header">
                         <div class="row align-items-center">
-                            <div class="col-auto d-none d-lg-block"><img src="./img/logo.svg" alt="Logo" class="logo_tablet"></div>
-                            <div class="col-auto d-block d-lg-none"><img src="./img/mobile-logo.png" alt="Logo" class="logo_mobile"></div>
+                            <div class="col-auto d-none d-lg-block"><a href="#"><img src="./img/logo.svg" alt="Logo" class="logo_tablet"></a></div>
+                            <div class="col-auto d-block d-lg-none"><a href="#"><img src="./img/mobile-logo.png" alt="Logo" class="logo_mobile"></a></div>
                             <div class="col-auto app_header_searchbar flex-grow-1">
                                 <input type="text" placeholder="Prova a cercare: Lezioni di Laravel" class="input_searchbar">
                                 <i class="fa-solid fa-magnifying-glass search-icon"></i>
@@ -63,9 +63,26 @@
                 <section class="new_student_section text-white fs-5">
                     <div class="container-fluid h-100">
                         <div class="row h-100 align-items-center">
-                            <div class="col-sm-12 col-md-4 order-md-3">Nuovo Studente <i class="fa-solid fa-plus border rounded p-1"></i></div>
-                            <div class="col-sm-12 col-md-4">BOOLEAN</div>
-                            <div class="col-sm-12 col-md-4">Studenti online negli ultimi 30 minuti <br>125</div>
+                            <p class="col-sm-12 col-md-4 col-lg-2 order-md-3">Nuovo Studente <button class="btn text-white border-0"><i class="fa-solid fa-plus border rounded p-2 plus_icon"></i></button></p>
+                            <p class="col-sm-12 col-md-4 col-lg-5 fs-3 lh-1">
+                                <span>BOOLEAN</span>
+                                <button class="custom_badge text-white border-0">Piano blaze</button><br>
+                                <button class="custom_badge text-white border-0">3 app</button>
+                                <i class="fa-solid fa-angles-right fs-5"></i>
+                                <span class="d-none d-lg-inline">
+                                    <button class="custom_badge text-white border-0">Boolean mobile app</button>
+                                    <button class="custom_badge text-white border-0">Boolean web app</button>
+                                    <button class="custom_badge text-white border-0">Boolean blog app</button>
+                                </span>
+                                <span class="d-inline d-lg-none">
+                                    <button class="custom_badge text-white border-0">+</button>
+                                </span>
+                                
+                            </p>
+                            <p class="col-sm-12 col-md-4 col-lg-5">
+                                <span>Studenti online negli ultimi 30 minuti</span><br>
+                                <span class="fs-2">125</span>
+                            </p>
                         </div>
                     </div>
 
