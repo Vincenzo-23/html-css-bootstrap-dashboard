@@ -1,3 +1,12 @@
+/* RESET */
+
+button{
+    background: transparent;
+    border: none;
+    color: currentColor;
+    padding: 0;
+}
+
 /* LAYOUT */
 
 #app{
@@ -67,6 +76,10 @@
 
 .logo_description{
     display: none;
+}
+
+.side_bar_button:hover{
+    background-color: lightgrey;
 }
 
 
