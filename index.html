@@ -18,11 +18,12 @@
         
         <!-- HEADER -->
         <header class="app_header p-2">
-                    <nav class="container-fluid">
+                    <nav class="container-fluid container_header">
                         <div class="row align-items-center">
-                            <div class="col-auto"><img src="./img/logo.svg" alt="Logo"></div>
+                            <div class="col-auto d-none d-lg-block"><img src="./img/logo.svg" alt="Logo" class="logo_tablet"></div>
+                            <div class="col-auto d-block d-lg-none"><img src="./img/mobile-logo.png" alt="Logo" class="logo_mobile"></div>
                             <div class="col-auto app_header_searchbar flex-grow-1">
-                                <input type="text" placeholder="Prova a cercare Lezioni di Laravel" class="w-100 px-5">
+                                <input type="text" placeholder="Prova a cercare: Lezioni di Laravel" class="input_searchbar">
                                 <i class="fa-solid fa-magnifying-glass search-icon"></i>
                             </div>
                             <ul class=" col-auto header_list d-none d-lg-flex list-unstyled mb-0">
